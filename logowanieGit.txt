@@ -1,0 +1,7 @@
+$ git config --global user.name 'rzbroinski'
+$ git config --global user.email 'romanzbroinski@gmail.com'
+
+inicjalizowanie repozytorium w folderze:
+$ git init
+
+Nastepnie dodajemy pliki do sledzenia (chcemy cały folder):
