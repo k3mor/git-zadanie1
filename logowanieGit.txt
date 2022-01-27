@@ -5,3 +5,16 @@ inicjalizowanie repozytorium w folderze:
 $ git init
 
 Nastepnie dodajemy pliki do sledzenia (chcemy cały folder):
+$ git add*
+
+Następnie wykonujemy commit - zapis aktualnego stanu oprogramowania
+$ git commit -m 'pierwszy comit - zaczynamy'
+
+Następnie łączymy lokalne repo ze zdalnym.
+Z GitHuba berymy linka:
+git remote add origin https://github.com/k3mor/git-zadanie1.git
+i uzywamy w naszym lokalym (wywołujemy w Bashu)
+
+Następnie wysyłamy to, co mam lokalnie i wysyłamy  na zdalne:
+Pierwszy push:
+$ git push -u origin master
